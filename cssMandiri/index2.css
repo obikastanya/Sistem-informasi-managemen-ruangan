@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(47, 79, 79);
+}
+
+#tanggal {
+  background-color: grey;
+  height: 430px;
+  padding: 20% 0px 0px 0px;
+}
+
+#tanggal .container {
+  height: 150px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+section.tbl {
+  height: 500px;
+  margin: 6% 10% 40px 10%;
+}
+#tanggal .container .row .col-sm-3 {
+  margin: -90px 47px 20px 47px;
+  background-color: rgb(240, 230, 140);
+  height: 200px;
+  border-radius: 20px;
+  width: 90%;
+  opacity: 1;
+  text-align: center;
+}
+#tanggal .container .row .col-sm-3 h1 {
+  font-size: 5rem;
+  margin-top: 14%;
+}
+.bungkus {
+  height: 1730px;
+  background-color: rgb(47, 79, 79);
+}
+table {
+  height: 700px;
+}
+#keterangan {
+  height: 200px;
+  background-color: white;
+}
+#keterangan2 {
+  background-color: rgb(47, 79, 79);
+  height: 700px;
+}
+#cariruangan {
+  margin: 55px 50px 20px 50px;
+  background-color: white;
+}
+#cariruangan h3 {
+  margin-top: 50px;
+  color: black;
+}
+
+#cariruangan .form-inline {
+  margin-top: 100px;
+  padding-left: 60%;
+}
+#cariruangan .dropdown .btn {
+  margin-top: 30px;
+  float: right;
+  margin-right: 4%;
+}
+#keterangan2 .row {
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+#paralax3 {
+  margin-top: 200px;
+  color: white;
+  padding: 20px 0px 0px 60px;
+  text-align: left;
+  height: 150px;
+  background-color: #343a40;
+}
+.logo {
+  margin-left: 80%;
+}
+.navbar {
+  padding-top: 50px;
+}
+.navbar ul li {
+  margin: 0px 20px 0px 10px;
+  font-size: 20px;
+}
+#navbarhitam a.nav-link:hover {
+  background-color: rgb(240, 230, 140);
+  color: black;
+  font-weight: bolder;
+}
+#tanggal .container .row .col-sm-3:hover {
+  background-color: rgb(260, 250, 160);
+  transition: 0.6s;
+  transform: translate(0px, 20px);
+}
+#tanggal .container .row .col-sm-3:hover h1 {
+  font-size: 90px;
+  font-weight: bolder;
+  transition: 0.5s;
+  transform: translate(0px, 15px);
+}

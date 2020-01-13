@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(47, 79, 79);
+}
+
+.jumbotron-fluid {
+  height: 700px;
+  background-color: white;
+}
+#jumbotron1 {
+  background-image: url("../img/carousel/1.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+#jumbotron1 .tampak {
+  display: inline-block;
+  opacity: 1;
+  z-index: 2;
+}
+#jumbotron1 h1 {
+  margin-top: 250px;
+}
+.jumbotron2 .col-sm-6 {
+  padding: 5% 5% 5% 5%;
+}
+.jumbotron4 {
+  height: 200px;
+}
+#paralax3 {
+  margin-top: 200px;
+  color: white;
+  padding: 20px 0px 0px 60px;
+  text-align: left;
+  height: 150px;
+  background-color: #343a40;
+}
+.logo {
+  margin-left: 80%;
+}
+.card img {
+  height: 250px;
+}
+.navbar {
+  padding-top: 50px;
+}
+.navbar ul li {
+  margin: 0px 20px 0px 10px;
+  font-size: 20px;
+}
+#navbarhitam a.nav-link:hover {
+  background-color: rgb(240, 230, 140);
+  color: black;
+  font-weight: bolder;
+}
+#jumbotron1 .tampak:hover {
+  transition: 0.4s;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+img:hover {
+  opacity: 0.6;
+}
+.card:hover {
+  transform: translate(0px, 15px);
+  transition: 0.4s;
+}
+.card-body:hover {
+  background-color: rgb(260, 250, 160);
+}
+#mid2 .row .col h1:hover {
+  transition: 0.5s;
+  font-size: 60px;
+  transform: translate(0px, -15px);
+  font-weight: 700;
+}

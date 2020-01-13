@@ -1,0 +1,29 @@
+#tanggal {
+  padding: 15% 5% 5% 5%;
+  background-color: rgb(47, 79, 79);
+  height: 1000px;
+  margin: 0px;
+}
+.container {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#tanggal .container .row:nth-child(1) .col {
+  background-color: rgba(160, 150, 50, 0.6);
+  height: 100px;
+  margin-bottom: 50px;
+}
+.form-inline {
+  margin-top: 30px;
+  float: right;
+}
+#navbarhitam a.nav-link:hover {
+  background-color: rgb(240, 230, 140);
+  color: black;
+  font-weight: bolder;
+}
+#tanggal {
+  background-image: url(../img/carousel/1.jpg);
+  background-size: cover;
+}
